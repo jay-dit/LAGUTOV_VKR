@@ -610,7 +610,7 @@ def send_message(emails, message):
     for email in emails:
         msg = MIMEMultipart()
         message = message
-        password = '1Qq12345!'
+        password = ''
         msg['From'] = "ann-kyprianova2002@yandex.ru"
         msg['To'] = email
         msg['Subject'] = "Subscription"
